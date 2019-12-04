@@ -74,7 +74,7 @@ class SelectMonsterService : Service() {
             if(levels and 2 !== 0)targetMonsters += level2Monsters
             if(levels and 4 !== 0)targetMonsters += level3Monsters
             Log.d(TAG,targetMonsters[0])
-            return targetMonsters[Random.nextInt(0, targetMonsters.size - 1)]
+            return targetMonsters[Random.nextInt(0, targetMonsters.size)]
         }
     }
 }

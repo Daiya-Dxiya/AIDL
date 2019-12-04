@@ -10,3 +10,4 @@ interface ISelectMonsterService {
      */
     String select(int levels);
 }
+
